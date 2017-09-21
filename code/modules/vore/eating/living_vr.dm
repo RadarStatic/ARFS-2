@@ -139,7 +139,7 @@
 				I.loc = src
 				B.internal_contents += I
 				src.visible_message("<span class='warning'>[src] is fed the beacon!</span>","You're fed the beacon!")
-				playsound(src, B.vore_sound, 100, 1)
+//				playsound(src, B.vore_sound, 100, 1)
 				return 1
 			else
 				return 1 //You don't get to hit someone 'later'
@@ -394,8 +394,8 @@
 
 	// If we got this far, nom successful! Announce it!
 	user.visible_message(success_msg)
-	if(belly_target.vore_sound)
-		playsound(user, belly_target.vore_sound, 100, 1)
+//	if(belly_target.vore_sound)
+//		playsound(user, belly_target.vore_sound, 100, 1)
 
 	// Actually shove prey into the belly.
 	belly_target.nom_mob(prey, user)

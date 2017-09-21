@@ -406,8 +406,8 @@
 					B.internal_contents += tgt
 
 					tgt << "<span class='warning'>You're squished from [user]'s [lowertext(selected.name)] to their [lowertext(B.name)]!</span>"
-					for(var/mob/hearer in range(1,user))
-						hearer << sound('sound/vore/squish2.ogg',volume=80)
+//					for(var/mob/hearer in range(1,user))
+//						hearer << sound('sound/vore/squish2.ogg',volume=80)
 
 	if(href_list["newbelly"])
 		if(user.vore_organs.len >= BELLIES_MAX)

@@ -55,7 +55,7 @@
 
 	melee_damage_lower = 5
 	melee_damage_upper = 10
-	poison_per_bite = 7
+	poison_per_bite = 4
 	poison_type = "stoxin"
 
 	var/fed = 0

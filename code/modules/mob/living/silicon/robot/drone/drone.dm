@@ -37,7 +37,7 @@ var/list/mob_hat_cache = list()
 	integrated_light_power = 3
 	local_transmit = 1
 
-	can_pull_size = ITEMSIZE_NORMAL
+	can_pull_size = ITEMSIZE_HUGE //Magnets. They use magnets. Let's go with that.
 	can_pull_mobs = MOB_PULL_SMALLER
 
 	mob_bump_flag = SIMPLE_ANIMAL

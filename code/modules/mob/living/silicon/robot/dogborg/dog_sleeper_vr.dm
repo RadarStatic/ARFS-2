@@ -49,7 +49,7 @@
 			processing_objects.Add(src)
 			user.visible_message("<span class='warning'>[hound.name]'s medical pod lights up as [target.name] slips inside into their [src.name].</span>", "<span class='notice'>Your medical pod lights up as [target] slips into your [src]. Life support functions engaged.</span>")
 			message_admins("[key_name(hound)] has eaten [key_name(patient)] as a dogborg. ([hound ? "<a href='?_src_=holder;adminplayerobservecoodjump=1;X=[hound.x];Y=[hound.y];Z=[hound.z]'>JMP</a>" : "null"])")
-			playsound(hound, 'sound/vore/gulp.ogg', 100, 1) //POLARISTODO
+//			playsound(hound, 'sound/vore/gulp.ogg', 100, 1) //POLARISTODO
 
 /obj/item/device/dogborg/sleeper/proc/go_out(var/target)
 	hound = src.loc
@@ -307,7 +307,7 @@
 		update_patient()
 		return
 
-	if(prob(10))
+/*	if(prob(10))
 		var/churnsound = pick(
 			'sound/vore/digest1.ogg',
 			'sound/vore/digest2.ogg',
@@ -325,6 +325,7 @@
 			outhearer << sound(churnsound)
 		for(var/mob/inhearer in contents)
 			inhearer << sound(churnsound)
+*/
 	//If the timing is right, and there are items to be touched
 	if(air_master.current_cycle%3==1 && length(touchable_items))
 

@@ -52,23 +52,21 @@
 	new foldable(get_turf(src))
 	qdel(src)
 
-/obj/item/weapon/storage/box/survival //VOREStation Add for Tether Size boxes
+/obj/item/weapon/storage/box/survival
 	max_w_class = ITEMSIZE_NORMAL
-	max_storage_space = 6 //This is just the right number, there's no constant.
+	max_storage_space = 8
 
 /obj/item/weapon/storage/box/survival/New()
 	..()
 	new /obj/item/clothing/mask/breath(src)
 	new /obj/item/weapon/tank/emergency/oxygen(src)
-	new /obj/item/clothing/glasses/goggles(src)
 
-/obj/item/weapon/storage/box/synth //VOREStation Add for Tether Size boxes
+/obj/item/weapon/storage/box/synth
 	max_w_class = ITEMSIZE_NORMAL
-	max_storage_space = 6 //This is just the right number, there's no constant.
+	max_storage_space = 8
 
 /obj/item/weapon/storage/box/synth/New()
 	..()
-	new /obj/item/clothing/glasses/goggles(src)
 
 //VOREStation Edit
 /obj/item/weapon/storage/box/vox/New()

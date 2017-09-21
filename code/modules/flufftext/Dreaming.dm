@@ -12,9 +12,14 @@ var/list/dreams = list(
 	"the virologist","the roboticist","the chef","the bartender","the chaplain","the librarian","a mouse","an ert member",
 	"a beach","the holodeck","a smokey room","a voice","the cold","a mouse","an operating table","the bar","the rain","a skrell",
 	"an unathi","a tajaran","the ai core","the mining station","the research station","a beaker of strange liquid",
-	//VOREStation Additions after this 
+	//VOREStation Additions after this
 	,"a sexy squirrel","licking their lips","sinking inside",
 	"vulpine assets","more dakka","a fox","a wolf","a cat","a tiger","a dog","a taur","a xenochimera"
+	//ARFS Supporters after this.
+	,"Wolfy Tubek","Brock McMullen","Ekon'ta Ro'onda"
+	//Other ARFS shenanigans after this
+	,"a fennec","a kitsune","a skunk","howling","silence","a gunshot","a passenger","the ARF","watermelons","way too many space carp",
+	"way too many spiders","the pool"
 	)
 
 mob/living/carbon/proc/dream()

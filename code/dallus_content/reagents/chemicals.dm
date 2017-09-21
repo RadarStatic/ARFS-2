@@ -111,36 +111,6 @@
 	color = "#ffbd54"
 
 //
-// I SEA MEN!!! No, seriously below here is the definition for semen used in drinks.dm in this folder repository. ~ Jon
-//
-
-/datum/reagent/nutriment/rachelcum
-	name = "\improper Rachel's cum"
-	id = "r_cum"
-	description = "A sticky, salty substance, somehow has a label saying 'Rachel.co semen', found often in Rachel.co drinks."
-	taste_description = "semen"
-	nutriment_factor = 10
-	color = "#e1e1e1"
-
-
-/datum/reagent/nutriment/jasminecum
-	name = "\improper Jasmine's cum"
-	id = "j_cum"
-	description = "A sticky, sweet substance, somehow has a label saying 'Rachel.co semen', found often in Rachel.co drinks."
-	taste_description = "semen"
-	nutriment_factor = 10
-	color = "#e2e2e2"
-
-/datum/reagent/nutriment/wrexcum
-	name = "\improper Wrex's cum"
-	id = "w_cum"
-	description = "A thick, salty substance, somehow has a label saying 'Rachel.co semen', found often in Rachel.co drinks."
-	taste_description = "semen"
-	nutriment_factor = 10
-	color = "#e3e3e3"
-
-
-//
 // Aphrodisiac!
 //
 

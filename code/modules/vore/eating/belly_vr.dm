@@ -390,10 +390,10 @@
 		M.show_message(struggle_outer_message, 2) // hearable
 	R << struggle_user_message
 
-	var/strpick = pick(struggle_sounds)
-	var/strsound = struggle_sounds[strpick]
-	if(R.is_preference_enabled(/datum/client_preference/play_vore_sounds))
-		playsound(R.loc, strsound, 50, 1)
+//	var/strpick = pick(struggle_sounds)
+//	var/strsound = struggle_sounds[strpick]
+//	if(R.is_preference_enabled(/datum/client_preference/play_vore_sounds))
+//		playsound(R.loc, strsound, 50, 1)
 
 	if(escapable) //If the stomach has escapable enabled.
 		R << "<span class='warning'>You attempt to climb out of \the [name].</span>"

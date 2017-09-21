@@ -70,3 +70,9 @@
 	outdoor_turfs.Add(src)
 
 
+/turf/unsimulated/wall/dungeonwall
+	oxygen = 0
+	nitrogen = 0
+	carbon_dioxide = 0
+	phoron = 0
+	temperature = T20C

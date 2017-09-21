@@ -77,8 +77,8 @@
 	desc = "They seem to pulse slightly with an inner life"
 	icon_state = "eggs"
 	var/amount_grown = 0
-	var/spiders_min = 6
-	var/spiders_max = 24
+	var/spiders_min = 1
+	var/spiders_max = 3
 	New()
 		pixel_x = rand(3,-3)
 		pixel_y = rand(3,-3)

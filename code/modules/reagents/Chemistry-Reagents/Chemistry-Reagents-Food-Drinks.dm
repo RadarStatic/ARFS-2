@@ -50,7 +50,7 @@
 /datum/reagent/nutriment/glucose
 	name = "Glucose"
 	id = "glucose"
-	taste_description = "sweetness"
+	taste_description = "sweet"
 	color = "#FFFFFF"
 
 	injectable = 1
@@ -58,7 +58,7 @@
 /datum/reagent/nutriment/protein // Bad for Skrell!
 	name = "animal protein"
 	id = "protein"
-	taste_description = "some sort of meat"
+	taste_description = "some sort of chewy and savory meat"
 	color = "#440000"
 
 /datum/reagent/nutriment/protein/affect_ingest(var/mob/living/carbon/M, var/alien, var/removed)
@@ -131,7 +131,7 @@
 	name = "Coco Powder"
 	id = "coco"
 	description = "A fatty, bitter paste made from coco beans."
-	taste_description = "bitterness"
+	taste_description = "bitter coco"
 	taste_mult = 1.3
 	reagent_state = SOLID
 	nutriment_factor = 5
@@ -170,7 +170,7 @@
 	name = "Cherry Jelly"
 	id = "cherryjelly"
 	description = "Totally the best. Only to be spread on foods with excellent lateral symmetry."
-	taste_description = "cherry"
+	taste_description = "sweet cherry jelly"
 	taste_mult = 1.3
 	reagent_state = LIQUID
 	nutriment_factor = 1
@@ -215,7 +215,7 @@
 	name = "Sprinkles"
 	id = "sprinkles"
 	description = "Multi-colored little bits of sugar, commonly found on donuts. Loved by cops."
-	taste_description = "sugar"
+	taste_description = "sugary bits"
 	nutriment_factor = 1
 	color = "#FF00FF"
 
@@ -223,7 +223,7 @@
 	name = "Mint"
 	id = "mint"
 	description = "Also known as Mentha."
-	taste_description = "mint"
+	taste_description = "refreshing mint"
 	reagent_state = LIQUID
 	color = "#CF3600"
 
@@ -275,7 +275,7 @@
 	name = "Frost Oil"
 	id = "frostoil"
 	description = "A special oil that noticably chills the body. Extracted from Ice Peppers."
-	taste_description = "mint"
+	taste_description = "not so refreshing mint"
 	taste_mult = 1.5
 	reagent_state = LIQUID
 	color = "#B31008"
@@ -294,7 +294,7 @@
 	name = "Capsaicin Oil"
 	id = "capsaicin"
 	description = "This is what makes chilis hot."
-	taste_description = "hot peppers"
+	taste_description = "heat"
 	taste_mult = 1.5
 	reagent_state = LIQUID
 	color = "#B31008"
@@ -326,7 +326,7 @@
 	name = "Condensed Capsaicin"
 	id = "condensedcapsaicin"
 	description = "A chemical agent used for self-defense and in police work."
-	taste_description = "fire"
+	taste_description = "BURNING PAIN"
 	taste_mult = 10
 	reagent_state = LIQUID
 	touch_met = 50 // Get rid of it quickly
@@ -441,7 +441,7 @@
 	name = "Banana Juice"
 	id = "banana"
 	description = "The raw essence of a banana."
-	taste_description = "banana"
+	taste_description = "fresh banana"
 	color = "#C3AF00"
 
 	glass_name = "banana juice"
@@ -451,7 +451,7 @@
 	name = "Berry Juice"
 	id = "berryjuice"
 	description = "A delicious blend of several different kinds of berries."
-	taste_description = "berries"
+	taste_description = "squeezed raspberries, blueberries, strawberries, and blackberries"
 	color = "#990066"
 
 	glass_name = "berry juice"
@@ -475,7 +475,7 @@
 	name = "Grape Juice"
 	id = "grapejuice"
 	description = "It's grrrrrape!"
-	taste_description = "grapes"
+	taste_description = "squeezed concord grapes"
 	color = "#863333"
 
 	glass_name = "grape juice"
@@ -506,7 +506,7 @@
 	name = "Lemon Juice"
 	id = "lemonjuice"
 	description = "This juice is VERY sour."
-	taste_description = "sourness"
+	taste_description = "refreshing sour lemon juice with just a hint of natural sweetness"
 	taste_mult = 1.1
 	color = "#AFAF00"
 
@@ -517,7 +517,7 @@
 	name = "Lime Juice"
 	id = "limejuice"
 	description = "The sweet-sour juice of limes."
-	taste_description = "sourness"
+	taste_description = "squeezed limes"
 	taste_mult = 1.8
 	color = "#365E30"
 
@@ -534,7 +534,7 @@
 	name = "Orange juice"
 	id = "orangejuice"
 	description = "Both delicious AND rich in Vitamin C, what more do you need?"
-	taste_description = "oranges"
+	taste_description = "fresh 'Space Florida' orange juice"
 	color = "#E78108"
 
 	glass_name = "orange juice"
@@ -550,7 +550,7 @@
 	name = "Poison Berry Juice"
 	id = "poisonberryjuice"
 	description = "A tasty juice blended from various kinds of very deadly and toxic berries."
-	taste_description = "berries"
+	taste_description = ""
 	color = "#863353"
 	strength = 5
 
@@ -561,7 +561,7 @@
 	name = "Potato Juice"
 	id = "potato"
 	description = "Juice of the potato. Bleh."
-	taste_description = "potatoes"
+	taste_description = "starchy potatoes"
 	nutrition = 2
 	color = "#302000"
 
@@ -572,7 +572,7 @@
 	name = "Tomato Juice"
 	id = "tomatojuice"
 	description = "Tomatoes made into juice. What a waste of big, juicy tomatoes, huh?"
-	taste_description = "tomatoes"
+	taste_description = "tangy fresh juiced tomatoes"
 	color = "#731008"
 
 	glass_name = "tomato juice"
@@ -588,7 +588,7 @@
 	name = "Watermelon Juice"
 	id = "watermelonjuice"
 	description = "Delicious juice made from watermelon."
-	taste_description = "sweet watermelon"
+	taste_description = "sweet blended watermelon"
 	color = "#B83333"
 
 	glass_name = "watermelon juice"
@@ -600,7 +600,7 @@
 	name = "Milk"
 	id = "milk"
 	description = "An opaque white liquid produced by the mammary glands of mammals."
-	taste_description = "milk"
+	taste_description = "creamy whole milk"
 	color = "#DFDFDF"
 
 	glass_name = "milk"
@@ -614,7 +614,7 @@
 	name =  "Chocolate Milk"
 	id = "chocolate_milk"
 	description = "A delicious mixture of perfectly healthy mix and terrible chocolate."
-	taste_description = "chocolate milk"
+	taste_description = "thick chocolate flavored whole milk"
 	color = "#74533b"
 
 	cup_icon_state = "cup_brown"
@@ -636,7 +636,7 @@
 	name = "Cream"
 	id = "cream"
 	description = "The fatty, still liquid part of milk. Why don't you mix this with sum scotch, eh?"
-	taste_description = "thick milk"
+	taste_description = "thick milk based creamer with a hint of vanilla"
 	color = "#DFD7AF"
 
 	glass_name = "cream"
@@ -650,7 +650,7 @@
 	name = "Soy Milk"
 	id = "soymilk"
 	description = "An opaque white liquid made from soybeans."
-	taste_description = "soy milk"
+	taste_description = "oversweetened 1% milk"
 	color = "#DFDFC7"
 
 	glass_name = "soy milk"
@@ -664,7 +664,7 @@
 	name = "Tea"
 	id = "tea"
 	description = "Tasty black tea, it has antioxidants, it's good for you!"
-	taste_description = "black tea"
+	taste_description = "bitter black tea"
 	color = "#832700"
 	adj_dizzy = -2
 	adj_drowsy = -1
@@ -705,7 +705,7 @@
 	id = "minttea"
 	description = "A tasty mixture of mint and tea. It's apparently good for you!"
 	color = "#A8442C"
-	taste_description = "black tea with tones of mint"
+	taste_description = "black tea with tones of cool mint"
 
 	glass_name = "mint tea"
 	glass_desc = "A tasty mixture of mint and tea. It's apparently good for you!"
@@ -718,7 +718,7 @@
 	id = "lemontea"
 	description = "A tasty mixture of lemon and tea. It's apparently good for you!"
 	color = "#FC6A00"
-	taste_description = "black tea with tones of lemon"
+	taste_description = "black tea with a lemon-y undercurrent"
 
 	glass_name = "lemon tea"
 	glass_desc = "A tasty mixture of lemon and tea. It's apparently good for you!"
@@ -731,7 +731,7 @@
 	id = "limetea"
 	description = "A tasty mixture of lime and tea. It's apparently good for you!"
 	color = "#DE4300"
-	taste_description = "black tea with tones of lime"
+	taste_description = "black tea with a hint of lime"
 
 	glass_name = "lime tea"
 	glass_desc = "A tasty mixture of lime and tea. It's apparently good for you!"
@@ -744,7 +744,7 @@
 	id = "orangetea"
 	description = "A tasty mixture of orange and tea. It's apparently good for you!"
 	color = "#FB4F06"
-	taste_description = "black tea with tones of orange"
+	taste_description = "black tea with hints of orange"
 
 	glass_name = "orange tea"
 	glass_desc = "A tasty mixture of orange and tea. It's apparently good for you!"
@@ -757,7 +757,7 @@
 	id = "berrytea"
 	description = "A tasty mixture of berries and tea. It's apparently good for you!"
 	color = "#A60735"
-	taste_description = "black tea with tones of berries"
+	taste_description = "black tea with hints of berries"
 
 	glass_name = "berry tea"
 	glass_desc = "A tasty mixture of berries and tea. It's apparently good for you!"
@@ -769,7 +769,7 @@
 	name = "Coffee"
 	id = "coffee"
 	description = "Coffee is a brewed drink prepared from roasted seeds, commonly called coffee beans, of the coffee plant."
-	taste_description = "coffee"
+	taste_description = "black coffee"
 	taste_mult = 1.3
 	color = "#482000"
 	adj_dizzy = -5
@@ -846,7 +846,7 @@
 	name = "Cafe Latte"
 	id = "cafe_latte"
 	description = "A nice, strong and tasty beverage while you are reading."
-	taste_description = "bitter cream"
+	taste_description = "bitter coffee cream"
 	color = "#C65905"
 	adj_temp = 5
 
@@ -865,7 +865,7 @@
 	name = "Hot Chocolate"
 	id = "hot_coco"
 	description = "Made with love! And cocoa beans."
-	taste_description = "creamy chocolate"
+	taste_description = "creamy slightly bitter chocolate"
 	reagent_state = LIQUID
 	color = "#403010"
 	nutrition = 2
@@ -882,7 +882,7 @@
 	name = "Soda Water"
 	id = "sodawater"
 	description = "A can of club soda. Why not make a scotch and soda?"
-	taste_description = "carbonated water"
+	taste_description = "fizzy carbonated water"
 	color = "#619494"
 	adj_dizzy = -5
 	adj_drowsy = -3
@@ -896,7 +896,7 @@
 	name = "Grape Soda"
 	id = "grapesoda"
 	description = "Grapes made into a fine drank."
-	taste_description = "grape soda"
+	taste_description = "fizzy grape soda"
 	color = "#421C52"
 	adj_drowsy = -3
 
@@ -923,7 +923,7 @@
 	name = "Lemonade"
 	id = "lemonade"
 	description = "Oh the nostalgia..."
-	taste_description = "lemonade"
+	taste_description = "sweet refreshing lemonade"
 	color = "#FFFF00"
 	adj_temp = -5
 
@@ -958,7 +958,7 @@
 	name = "Milkshake"
 	id = "milkshake"
 	description = "Glorious brainfreezing mixture."
-	taste_description = "vanilla milkshake"
+	taste_description = "creamy vanilla milkshake"
 	color = "#AEE5E4"
 	adj_temp = -9
 
@@ -1036,7 +1036,7 @@
 	name = "Space Cola"
 	id = "cola"
 	description = "A refreshing beverage."
-	taste_description = "cola"
+	taste_description = "fizzy dark sugary cola"
 	reagent_state = LIQUID
 	color = "#100800"
 	adj_drowsy = -3
@@ -1050,7 +1050,7 @@
 	name = "Mountain Wind"
 	id = "spacemountainwind"
 	description = "Blows right through you like a space wind."
-	taste_description = "sweet citrus soda"
+	taste_description = "fizzy oversweeted citrus soda"
 	color = "#102000"
 	adj_drowsy = -7
 	adj_sleepy = -1
@@ -1064,7 +1064,7 @@
 	name = "Dr. Gibb"
 	id = "dr_gibb"
 	description = "A delicious blend of 42 different flavours"
-	taste_description = "cherry soda"
+	taste_description = "42 different flavors, including prunes"
 	color = "#102000"
 	adj_drowsy = -6
 	adj_temp = -5
@@ -1076,7 +1076,7 @@
 	name = "Space-Up"
 	id = "space_up"
 	description = "Tastes like a hull breach in your mouth."
-	taste_description = "citrus soda"
+	taste_description = "fizzy lemon citrus soda"
 	color = "#202800"
 	adj_temp = -8
 
@@ -1088,7 +1088,7 @@
 	name = "Lemon Lime"
 	id = "lemon_lime"
 	description = "A tangy substance made of 0.5% natural citrus!"
-	taste_description = "tangy lime and lemon soda"
+	taste_description = "fizzy tangy lemon and lime soda"
 	color = "#878F00"
 	adj_temp = -8
 
@@ -1100,7 +1100,7 @@
 	name = "Shirley Temple"
 	id =  "shirley_temple"
 	description = "A sweet concotion hated even by its namesake."
-	taste_description = "sweet ginger ale"
+	taste_description = "sweet fizzy ginger ale with a hint of pomegrante"
 	color = "#EF304F"
 	adj_temp = -8
 
@@ -1112,7 +1112,7 @@
 	name = "Roy Rogers"
 	id = "roy_rogers"
 	description = "I'm a cowboy, on a steel horse I ride."
-	taste_description = "cola and fruit"
+	taste_description = "fizzy dark cola mixed with pomegrante"
 	color = "#4F1811"
 	adj_temp = -8
 
@@ -1136,7 +1136,7 @@
 	name = "Arnold Palmer"
 	id = "arnold_palmer"
 	description = "Tastes just like the old man."
-	taste_description = "lemon and sweet tea"
+	taste_description = "sweet tea mixed with lemonade"
 	color = "#AF5517"
 	adj_temp = -8
 
@@ -1172,7 +1172,7 @@
 	name = "Dry Ramen"
 	id = "dry_ramen"
 	description = "Space age food, since August 25, 1958. Contains dried noodles, vegetables, and chemicals that boil in contact with water."
-	taste_description = "dry cheap noodles"
+	taste_description = "crunchy plastic-y noodles that are clearly uncooked"
 	reagent_state = SOLID
 	nutrition = 1
 	color = "#302000"
@@ -1181,7 +1181,7 @@
 	name = "Hot Ramen"
 	id = "hot_ramen"
 	description = "The noodles are boiled, the flavors are artificial, just like being back in school."
-	taste_description = "noodles and salt"
+	taste_description = "salty beef broth soaked noodles and freeze dried veggie 'chunks'"
 	reagent_state = LIQUID
 	color = "#302000"
 	nutrition = 5
@@ -1191,7 +1191,7 @@
 	name = "Hell Ramen"
 	id = "hell_ramen"
 	description = "The noodles are boiled, the flavors are artificial, just like being back in school."
-	taste_description = "noodles and spice"
+	taste_description = "over salted noodles that were cooked in ghost pepper juice"
 	taste_mult = 1.7
 	reagent_state = LIQUID
 	color = "#302000"
@@ -1207,7 +1207,7 @@
 	name = "Ice"
 	id = "ice"
 	description = "Frozen water, your dentist wouldn't like you chewing this."
-	taste_description = "ice"
+	taste_description = "cool ice chunks"
 	reagent_state = SOLID
 	color = "#619494"
 	adj_temp = -5

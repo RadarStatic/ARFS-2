@@ -79,6 +79,9 @@
 	under_state = "pool"
 	outdoors = FALSE
 
+/turf/simulated/floor/water/pool/steps //The steps to enter a pool
+	under_state = "stairs"
+
 /turf/simulated/floor/water/deep/pool
 	name = "deep pool"
 	desc = "Don't worry, it's not closed."
